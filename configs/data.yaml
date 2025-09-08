@@ -1,0 +1,19 @@
+train: dataset/images/train
+val: dataset/images/val
+
+nc: 38
+names: [
+  'Apple_scab', 'Apple_black_rot', 'Apple_cedar_apple_rust', 'Apple_healthy',
+  'Blueberry_healthy', 'Cherry_powdery_mildew', 'Cherry_healthy',
+  'Corn_gray_leaf_spot', 'Corn_common_rust', 'Corn_healthy',
+  'Corn_northern_leaf_blight', 'Grape_black_rot', 'Grape_esca',
+  'Grape_healthy', 'Grape_leaf_blight', 'Orange_huanglongbing',
+  'Peach_bacterial_spot', 'Peach_healthy', 'Bell_Pepper_bacterial_spot',
+  'Bell_Pepper_healthy', 'Potato_early_blight', 'Potato_healthy',
+  'Potato_late_blight', 'Raspberry_healthy', 'Soybean_healthy',
+  'Squash_powdery_mildew', 'Strawberry_healthy', 'Strawberry_leaf_scorch',
+  'Tomato_bacterial_spot', 'Tomato_early_blight', 'Tomato_late_blight',
+  'Tomato_leaf_mold', 'Tomato_septoria_leaf_spot',
+  'Tomato_two-spotted_spider_mite', 'Tomato_target_spot',
+  'Tomato_mosaic_virus', 'Tomato_yellow_leaf_curl_virus', 'Tomato_healthy'
+]
